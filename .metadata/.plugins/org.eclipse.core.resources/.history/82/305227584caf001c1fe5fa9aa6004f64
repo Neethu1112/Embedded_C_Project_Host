@@ -1,0 +1,15 @@
+/*
+ * storage_class1.c
+ *
+ *  Created on: 29 Mar 2022
+ *      Author: neeth
+ */
+
+#include <stdio.h>
+int fun (void)
+{
+	//static int i = initializer(); // should initialize with constant literals
+	static int i; // retain the value of static var throughout program
+	i++;
+	return i;
+}

@@ -5,13 +5,24 @@
  *      Author: neeth
  */
 
+#include<stdio.h>
+#include"variable.h"
 
-#include <stdio.h>
-int main()
+void function()
 {
-    static int i = 5;
-    if (--i){
-        printf("%d ", i);
-        main(10);
-    }
+	int x = 20;//local variable
+	static int y = 20;//static variable
+	extern int z;
+	x = x + 10;
+	y = y + 10;
+	z = z+10;
+	printf("\n%d,%d, %d",x,y,z);
+}
+
+int main(void )
+{
+
+	function();
+	function();
+	function();
 }

@@ -1,0 +1,23 @@
+/*
+ * variable.c
+ *
+ *  Created on: 28 Mar 2022
+ *      Author: neeth
+ */
+
+#include<stdio.h>
+void  fun()
+{
+	x = x+10;
+	y = y +10;
+	printf("x= %d\n",x);
+	printf("y= %d\n",y);
+}
+int x = 10;
+static int y = 10;
+int main(void )
+{
+
+	fun();
+	fun();
+}

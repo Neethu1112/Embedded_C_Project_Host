@@ -1,0 +1,12 @@
+/*
+ * scope1.c
+ *
+ *  Created on: 28 Mar 2022
+ *      Author: neeth
+ */
+extern int a ;
+void  myfun()
+{
+	a =4;
+	printf("\n a = %d",a);
+}

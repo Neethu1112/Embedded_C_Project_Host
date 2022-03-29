@@ -1,0 +1,26 @@
+/*
+ * variable.c
+ *
+ *  Created on: 28 Mar 2022
+ *      Author: neeth
+ */
+
+#include<stdio.h>
+#include"variable.h"
+static int y = 30;//static variable
+int x = 20;//local variable
+
+void function()
+{
+	x = x + 10;
+	y = y + 10;
+	printf("\n%d,%d",x,y);
+}
+
+int main(void )
+{
+
+	function();
+	function();
+	function();
+}
