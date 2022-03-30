@@ -1,0 +1,18 @@
+/*
+ * quiz.c
+ *
+ *  Created on: 30 Mar 2022
+ *      Author: neeth
+ */
+
+#include<stdio.h>
+int var =20;
+int main(void)
+{
+	int var1;		//declares and define with garbage value
+	extern int var2;	// only declares
+	int var = var;
+	printf("\n var = %d", var);
+	return 0;
+
+}

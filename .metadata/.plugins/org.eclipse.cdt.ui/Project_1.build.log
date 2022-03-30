@@ -1,7 +1,1 @@
-12:14:03 **** Incremental Build of configuration Debug for project Project_1 ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Register.o "..\\Register.c" 
-gcc -o Project_1.exe Register.o 
-
-12:14:03 Build Finished. 0 errors, 0 warnings. (took 569ms)
-
+Info: Nothing to build for Project_1

@@ -1,0 +1,19 @@
+/*
+ * quiz1.c
+ *
+ *  Created on: 30 Mar 2022
+ *      Author: neeth
+ */
+#include<stdio.h>
+int main(void)
+{
+	int i; //garbage
+	for(i =0; i<5;i++)
+	{
+
+		int i =10;
+		printf("\n i= %d",i);
+		i++;
+	}
+	return 0;
+}

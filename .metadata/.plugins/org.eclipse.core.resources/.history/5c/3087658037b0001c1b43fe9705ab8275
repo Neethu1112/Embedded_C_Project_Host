@@ -1,0 +1,26 @@
+/*
+ * bitwise.c
+ *
+ *  Created on: 30 Mar 2022
+ *      Author: neeth
+ */
+#include<stdio.h>
+//Function to return the only odd
+// occurring element
+int fun(int arr[],int n)
+{
+	int res=0,i;
+	for (i =0; i<n;i++)
+		res ^= arr[i];
+	return res;
+}
+int main(void)
+{
+	int arr[6] = {12,12,12,11,11};
+	int n = sizeof(arr)/sizeof(arr[0]);
+	int odd_num =fun(arr,n);
+	printf("odd num =%d\n",odd_num);
+	int x = 19;
+	(x & 1) ? printf("Odd") : printf("Even");
+	return 0;
+}
