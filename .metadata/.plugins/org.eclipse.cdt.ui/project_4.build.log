@@ -1,0 +1,8 @@
+11:58:14 **** Incremental Build of configuration Debug for project Project_4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o extern2_main.o "..\\extern2_main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o extern_manipulate.o "..\\extern_manipulate.c" 
+gcc -o Project_4.exe extern2_main.o extern_manipulate.o 
+
+11:58:15 Build Finished. 0 errors, 0 warnings. (took 901ms)
+

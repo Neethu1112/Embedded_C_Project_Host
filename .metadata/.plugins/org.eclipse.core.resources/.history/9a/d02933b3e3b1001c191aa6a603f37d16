@@ -1,0 +1,13 @@
+/*
+ * commandline.c
+ *
+ *  Created on: 1 Apr 2022
+ *      Author: neeth
+ */
+
+#include<stdio.h>
+int main(int argc, char **argv)
+{
+	printf("there were %d command line arguments\n",argc);
+	return 0;
+}

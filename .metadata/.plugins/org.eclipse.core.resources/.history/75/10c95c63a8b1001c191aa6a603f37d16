@@ -1,0 +1,22 @@
+/*
+ * ternary3.c
+ *
+ *  Created on: 1 Apr 2022
+ *      Author: neeth
+ */
+
+
+#include <stdio.h>
+
+int main()
+{
+	int age;
+	printf("Enter your age = ");
+	scanf("%d",&age);
+	char *classification;
+	classification =( (age <19) ? 'kid' : ((age<65)?  'adult': 'geezer'));
+
+	printf("you are a %s\n",classification);
+	return(0);
+}
+
