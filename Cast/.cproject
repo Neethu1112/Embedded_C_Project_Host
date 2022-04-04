@@ -39,11 +39,11 @@
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.1652177989" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug"/>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.205359419.1098268316" name="cast3.c" rcbsApplicability="disable" resourcePath="cast3.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.747839562.1708040661">
-						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.747839562.1708040661" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.747839562"/>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.205359419.855734536" name="cast4.c" rcbsApplicability="disable" resourcePath="cast4.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.747839562.498392458">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.747839562.498392458" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.747839562"/>
 					</fileInfo>
 					<sourceEntries>
-						<entry excluding="cast3.c|cast2.c|cast1.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="cast4.c|cast3.c|cast2.c|cast1.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

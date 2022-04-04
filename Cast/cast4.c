@@ -12,7 +12,7 @@ int main()
 {
 	int *m;
 
-	m = (int *)malloc(16 * sizeof(int));
+	m = (int *)malloc(16*sizeof(int));
 	if( m == NULL)
 		puts("Failed to allocate memory");
 	else

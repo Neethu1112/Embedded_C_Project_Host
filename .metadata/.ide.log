@@ -46,3 +46,25 @@
 2022-03-30 12:10:04,730 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
 2022-03-30 12:10:04,746 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
 2022-03-30 12:10:08,435 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-04-01 10:38:19,243 [INFO] Activator:177 - 
+
+
+2022-04-01 10:38:19,260 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-01 10:38:19,993 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2022-04-01 10:38:20,009 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2022-04-01 10:38:20,140 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2022-04-01 10:38:25,063 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-04-01 19:24:30,561 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 2022-04-01 19:24:30.545:INFO::Start Help Server: Logging initialized @31613381ms to org.eclipse.jetty.util.log.StdErrLog
+2022-04-01 19:24:31,013 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 2022-04-01 19:24:31.013:INFO:oejs.session:Start Help Server: DefaultSessionIdManager workerName=node0
+2022-04-01 19:24:31,013 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 2022-04-01 19:24:31.013:INFO:oejs.session:Start Help Server: No SessionScavenger set, using defaults
+2022-04-01 19:24:31,028 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 2022-04-01 19:24:31.013:INFO:oejs.session:Start Help Server: node0 Scavenging every 600000ms
+2022-04-01 19:24:31,077 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 2022-04-01 19:24:31.077:INFO:oejs.session:Start Help Server: node0 Scavenging every 600000ms
+2022-04-02 15:07:02,161 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 2022-04-02 15:07:02.161:INFO:oejs.session:Stop Help Server: node0 Stopped scavenging
+2022-04-04 08:55:34,578 [INFO] Activator:177 - 
+
+
+2022-04-04 08:55:34,578 [INFO] Activator:178 - !SESSION log4j initialized
+2022-04-04 08:55:35,347 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2022-04-04 08:55:35,347 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2022-04-04 08:55:35,363 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Managed Build system manifest file error: Could not load icon "icons/chip.png".
+2022-04-04 08:55:39,717 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
