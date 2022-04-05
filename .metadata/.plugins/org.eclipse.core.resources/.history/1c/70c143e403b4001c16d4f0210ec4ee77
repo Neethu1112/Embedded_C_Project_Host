@@ -1,0 +1,26 @@
+/*
+ * string1.c
+ *
+ *  Created on: 4 Apr 2022
+ *      Author: neeth
+ */
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#define SIZE 65
+int compare(const void *a, const void *b);
+int main(void)
+{
+	int length = strlen(string);
+	char string[SIZE];
+	printf("Enter input:");
+	fgets(string,SIZE,stdin);
+	qsort(string,length,sizeof(char),compare);
+	printf("sorted string: ");
+	printf("%s",string);
+	return 0;
+}
+int compare(const void *a, const void *b)
+{
+	return(*(char*)a-*(char*)b);
+}

@@ -1,0 +1,47 @@
+/*
+ * excercise.c
+ *
+ *  Created on: 4 Apr 2022
+ *      Author: neeth
+ */
+
+#include<stdio.h>
+
+struct weather{
+	char day[10];
+	float temp;
+};
+void sort(struct weather *day);
+void display (struct weather *days);
+int main()
+{
+	struct weather days[7]={
+			{ "Sunday", 72.5 },
+			{ "Monday", 68.4 },
+			{ "Tuesday", 75.0 },
+			{ "Wednesday", 73.8 },
+			{ "Thursday", 65.1 },
+			{ "Friday", 72.8 },
+			{"Saturday", 75.2 }
+	};
+	sort(days);
+	display(days);
+}
+void sort(struct weather *days)
+{
+	int x;
+	for(x =0; x<7;x++)
+	{
+		if(days[x]->temp > days[x+1]->temp)
+			days[x]->temp = days[x+1]->temp;
+	}
+}
+void display (struct weather *days)
+{
+	int x;
+	for (x =0; x<7;x++)
+	{
+		printf("%10s had %.1f temperature",days->day,days->temp);
+	}
+}
+

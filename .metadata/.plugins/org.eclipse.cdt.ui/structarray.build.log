@@ -1,0 +1,7 @@
+17:39:30 **** Incremental Build of configuration Debug for project structarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o excercise.o "..\\excercise.c" 
+gcc -o structarray.exe excercise.o 
+
+17:39:31 Build Finished. 0 errors, 0 warnings. (took 918ms)
+

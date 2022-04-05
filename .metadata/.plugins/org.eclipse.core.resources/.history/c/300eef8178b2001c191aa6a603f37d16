@@ -1,0 +1,16 @@
+/*
+ * excercise.c
+ *
+ *  Created on: 2 Apr 2022
+ *      Author: neeth
+ */
+#include<stdio.h>
+int main(void)
+{
+	int value;
+	printf("Enter any integer input");
+	scanf("%d\n",&value);
+	printf("The float value is %1.1f",(float)value);
+	return  0;
+}
+

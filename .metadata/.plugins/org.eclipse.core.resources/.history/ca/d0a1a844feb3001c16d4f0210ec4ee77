@@ -1,0 +1,31 @@
+/*
+ * string.c
+ *
+ *  Created on: 4 Apr 2022
+ *      Author: neeth
+ */
+
+#include<stdio.h>
+#include<stdlib.h>
+int compare(const void *a,const void *b);
+#define SIZE 25
+int main(void)
+{
+	int x;
+	char string [SIZE];
+	printf("Enter input string:\n");
+	scanf("%s",&string);
+
+	printf("Unsorted array\n");
+	for (x =0;x < SIZE; x++ )
+		printf("%2c",string[x]);
+	printf("\n");
+
+	printf("sorted array");
+	qsort(string,SIZE,sizeof(int),compare);
+	return 0;
+}
+int compare(const void *a,const void *b)
+{
+	return(*(int*)a -*(int*)b);
+}

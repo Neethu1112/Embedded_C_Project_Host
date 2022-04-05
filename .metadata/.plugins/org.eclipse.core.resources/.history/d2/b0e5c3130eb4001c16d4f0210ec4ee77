@@ -1,0 +1,36 @@
+/*
+ * excercise.c
+ *
+ *  Created on: 4 Apr 2022
+ *      Author: neeth
+ */
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#define SIZE  65
+char *upper_convert(char str[]);
+int main()
+{
+	int x;
+	char *str;
+	char string[SIZE];
+	printf("Enter input: ");
+	fgets(string,SIZE,stdin);
+	int length = strlen(string);
+
+	str = upper_convert(string);
+	printf("converted string: ");
+	printf("%s",string);
+	return 0;
+}
+char *upper_convert(char str[])
+{
+	int x;
+	for(x =0; x<length; x++)
+	{
+		if(65<str[x]<97)
+			return(str[x]-32);
+		elif(str[x] == 32)
+			return (str[x] =95);
+	}
+}
